@@ -1,0 +1,35 @@
+form {
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+}
+
+a {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fafafa;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #eee;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}

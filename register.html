@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo_register.css" rel="stylesheet">
+    <title>Registro</title>
+</head>
+
+<body>
+
+    <h1>Registro de nuevo usuario.</h1>
+
+    <form method="post" action="register.php">
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="surname">Apellido:</label><br>
+        <input type="text" id="surname" name="surname" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="username">Nombre de usuario:</label><br>
+        <input type="text" id="username" name="username" required><br>
+        <label for="password">Contraseña:</label><br>
+        <input type="password" id="password" name="password" required><br>
+        <label for="balance">Balance:</label><br>
+        <input type="number" id="balance" name="balance" min="1" max="999" requireds><br><br>
+        <input type="submit" value="Enviar">
+        <a href="index.html">¿Ya tienes una cuenta? Inicia sesión.</a>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo_login.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <h1>¡Bienvenido al Banco de Tiempo!</h1>
+    <h4>Para acceder al sistema, inicia sesión. Si no dispones de una cuenta, creala, ¡es gratis!</h4>
+    <div class="intro">
+        <form>
+            <center>
+                <p>Un banco de tiempo es un sistema de intercambio de servicios por tiempo. En él
+                    la unidad de intercambio no es el dinero habitual sino una medida de tiempo, por
+                    ejemplo, el trabajo por hora. Es un sistema de intercambio de servicios por
+                    servicios o favores por favores. Propone la ventaja de fomentar las relaciones
+                    sociales y la igualdad entre distintos estratos económicos.</p>
+            </center>
+        </form><br>
+    </div>
+
+    <div class="login">
+        <form action="login.php" method="post">
+            <label for="username">Usuario:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="password">Contraseña:</label><br>
+            <input type="password" id="password" name="password"><br><br>
+            <input type="submit" value="Enviar">
+            <a href="register.html">¡Resgistrate!</a>
+        </form>
+    </div>
+</body>
+
+</html>
